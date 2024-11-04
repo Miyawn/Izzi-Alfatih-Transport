@@ -1,19 +1,18 @@
-// src/components/Header.jsx
-import React from 'react';
+// // src/components/Header.jsx
+// import React from 'react';
 
-function Header() {
-  return (
-    <header className="bg-white shadow-md">
-      <div className="container mx-auto flex justify-between items-center p-4">
-        <h1 className="text-2xl font-bold">Oregon Logistics</h1>
-        <nav className="space-x-4">
-          <a href="#services" className="text-gray-700">Services</a>
-          <a href="#testimonials" className="text-gray-700">Testimonials</a>
-          <a href="#articles" className="text-gray-700">Articles</a>
-        </nav>
-      </div>
-    </header>
-  );
-}
+// const Header = () => (
+//   <header className="bg-gray-900 text-white">
+//     <nav className="container mx-auto flex justify-between items-center py-4">
+//       <h1 className="text-2xl font-bold">Izzi Alfatih Transport</h1>
+//       <ul className="flex gap-6">
+//         <li><a href="#services" className="hover:text-gray-400">Services</a></li>
+//         <li><a href="#story" className="hover:text-gray-400">Our Story</a></li>
+//         <li><a href="#articles" className="hover:text-gray-400">Articles</a></li>
+//         <li><a href="#contact" className="hover:text-gray-400">Contact</a></li>
+//       </ul>
+//     </nav>
+//   </header>
+// );
 
-export default Header;
+// export default Header;

@@ -1,18 +1,17 @@
 // src/components/Footer.jsx
 import React from 'react';
 
-function Footer() {
-  return (
-    <footer className="bg-gray-800 text-white p-6 mt-12">
-      <div className="container mx-auto text-center">
-        <p>© 2024 Oregon Logistics. All rights reserved.</p>
-        <div className="mt-4 space-x-4">
-          <a href="#" className="text-gray-400">Privacy Policy</a>
-          <a href="#" className="text-gray-400">Terms of Service</a>
-        </div>
+const Footer = () => (
+  <footer className="bg-gray-900 text-white py-10">
+    <div className="container mx-auto text-center">
+      <p>&copy; 2023 Izzi Alfatih Transport. All rights reserved.</p>
+      <div className="flex justify-center space-x-4 mt-4">
+        <a href="#company">Company</a>
+        <a href="#contact">Contact</a>
+        <a href="#social-media">Social Media</a>
       </div>
-    </footer>
-  );
-}
+    </div>
+  </footer>
+);
 
 export default Footer;

@@ -1,68 +1,85 @@
 // src/components/Hero.jsx
 import React from 'react';
-import Logo1 from "../assets/Logo1.png"
 
 function Hero() {
   return (
-    <section className="relative bg-cover bg-center h-screen" style={{ backgroundImage: 'url(/path-to-your-background-image.jpg)' }}>
+    <section className="relative bg-cover bg-center h-screen flex items-center" style={{ backgroundImage: 'url(/src/assets/Russel_biru.png)' }}>
+      
+      {/* Background Layer dengan Opacity */}
+      <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
+      
+
       {/* Top Bar */}
-      <div className="absolute top-0 left-0 right-0 bg-white bg-opacity-70 px-4 py-2 flex justify-between items-center text-sm">
+      <div className="absolute top-0 left-0 right-0 bg-white bg-opacity-70 px-4 py-2 flex justify-between items-center text-sm z-10">
         <div className="flex items-center space-x-4">
-          <span>📞 +62 896 3736 9338</span>
-          <span>📧 izzifatihtransport@email.com</span>
+          <a href="#" className="text-black font-semibold">📞 +62 896 3736 9338</a>
+          <a href="#" className="text-black font-semibold">📧 izzifatihtransport@email.com</a>
         </div>
         <div className="flex items-center space-x-4">
-          <span>All weekdays at 08.00 - 19.00</span>
+          <a href="#" className="text-black font-semibold">All weekdays at 08.00 - 19.00</a>
           <a href="#" className="text-blue-600 font-semibold">TRACK & TRACE →</a>
         </div>
       </div>
 
       {/* Logo and Navigation */}
-      <div className="absolute top-12 left-0 right-0 px-4 md:px-12 flex justify-between items-center">
+      <div className="absolute top-12 left-0 right-0 px-4 md:px-12 flex justify-between items-center z-10">
         <div className="flex items-center space-x-2">
-          <img src='Logo1' alt="Izzi Alfatih Transport Logo" className="h-10" />
-          <span className="text-2xl font-bold text-gray-800">Izzi Alfatih Transport</span>
+          <img src='../src/assets/Logo2.png' alt="Izzi Alfatih Transport Logo" className="h-10" />
+          <span className="text-2xl font-bold text-white">Izzi Alfatih Transport</span>
         </div>
-        <nav className="hidden md:flex space-x-6 text-gray-700">
-          <a href="#home" className="hover:text-blue-600">Home</a>
-          <a href="#about" className="hover:text-blue-600">About</a>
-          <a href="#services" className="hover:text-blue-600">Services</a>
-          <a href="#news" className="hover:text-blue-600">News</a>
-          <a href="#solutions" className="hover:text-blue-600">Solutions</a>
+        <nav className="hidden md:flex space-x-6 text-gray-200">
+          <a href="#home" className="hover:text-blue-500">Home</a>
+          <a href="#about" className="hover:text-blue-500">About</a>
+          <a href="#services" className="hover:text-blue-500">Services</a>
+          <a href="#news" className="hover:text-blue-500">News</a>
+          <a href="#solutions" className="hover:text-blue-500">Solutions</a>
         </nav>
       </div>
 
       {/* Main Content */}
-      <div className="flex flex-col justify-center items-center text-center h-full text-white bg-gradient-to-r from-black via-transparent to-transparent">
-        <h1 className="text-4xl md:text-5xl font-bold">
-          Izzi Alfatih Transport is the <span className="text-blue-500">solution</span> to your <span className="text-blue-500">business’ success</span>
-        </h1>
-        <p className="mt-4 max-w-xl text-lg">
-          Izzi Alfatih Transport is one of the UK’s leading logistics companies. We offer logistics services for your company that wants to move goods and transact with other companies. Izzi Alfatih Transport upholds quality and class.
-        </p>
-        <div className="flex space-x-4 mt-6">
-          <button className="btn btn-outline btn-primary">TRACK</button>
-          <button className="btn btn-outline btn-primary">REQUEST A RATE</button>
+      <div className="container mx-auto flex items-center justify-between h-full px-0 z-10"> {/* Menambah z-index */}
+        {/* Left Side: Text and Buttons */}
+        <div className="w-full md:w-1/2 text-left text-white">
+          <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+            Izzi Alfatih Transport is the <span className="text-blue-500">solution</span> to your <span className="text-blue-500">business’ success</span>
+          </h1>
+          <p className="mt-4 max-w-md text-lg">
+            Izzi Alfatih Transport is one of the UK’s leading logistics companies. We offer logistics services for your company that wants to move goods and transact with other companies. Izzi Alfatih Transport upholds quality and class.
+          </p>
+          <div className="flex space-x-4 mt-6">
+            <button className="btn btn-outline btn-primary">TRACK</button>
+            <button className="btn btn-outline btn-primary">REQUEST A RATE</button>
+          </div>
         </div>
 
-        {/* Stats */}
-        <div className="flex space-x-8 mt-12 text-gray-200">
-          <div className="text-center">
-            <h2 className="text-2xl font-bold">2021</h2>
-            <p>Year Established</p>
-          </div>
-          <div className="text-center">
-            <h2 className="text-2xl font-bold">51</h2>
-            <p>Units in total</p>
-          </div>
-          <div className="text-center">
-            <h2 className="text-2xl font-bold">31</h2>
-            <p>Company Partners</p>
-          </div>
-          <div className="text-center">
-            <h2 className="text-2xl font-bold">2156</h2>
-            <p>Goods Delivered</p>
-          </div>
+        {/* Right Side: Truck Image */}
+        <div className="hidden md:flex md:w-1/2 justify-end overflow-hidden z-10"> {/* Menambah z-index */}
+          <img
+              src="/src/assets/Truck_Hero_1.png"
+              alt="Truck"
+              className="h-auto"
+              style={{ width: '150%', maxWidth: 'none', transform: 'translateX(25%)', clipPath: 'inset(0 0 0 0)' }}
+          />
+        </div>
+      </div>
+
+      {/* Stats */}
+      <div className="absolute bottom-8 w-full flex justify-around text-gray-200 text-center px-4 z-10">
+        <div>
+          <h2 className="text-2xl font-bold">2021</h2>
+          <p>Year Established</p>
+        </div>
+        <div>
+          <h2 className="text-2xl font-bold">51</h2>
+          <p>Units in total</p>
+        </div>
+        <div>
+          <h2 className="text-2xl font-bold">31</h2>
+          <p>Company Partners</p>
+        </div>
+        <div>
+          <h2 className="text-2xl font-bold">2156</h2>
+          <p>Goods Delivered</p>
         </div>
       </div>
     </section>
