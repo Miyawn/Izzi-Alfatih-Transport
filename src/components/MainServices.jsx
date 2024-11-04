@@ -2,23 +2,29 @@
 import React from 'react';
 
 function MainServices() {
-  const services = [
-    { title: 'Warehouse Storage', description: 'Secure and organized storage solutions.' },
-    { title: 'Fleet Management', description: 'Efficient fleet management services.' },
-    { title: 'Logistics Planning', description: 'Comprehensive logistics planning.' },
-  ];
-
   return (
-    <section id="services" className="my-12 text-center">
-      <h2 className="text-3xl font-bold mb-6">Our main services</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {services.map((service, index) => (
-          <div key={index} className="card shadow-lg p-6 bg-white">
-            <h3 className="text-xl font-semibold">{service.title}</h3>
-            <p>{service.description}</p>
-            <button className="btn btn-primary mt-4">Read more</button>
+    <section className="bg-gray-100 py-12">
+      <div className="text-center mb-10">
+        <h2 className="text-3xl font-bold text-blue-800">Our main services</h2>
+      </div>
+      <div className="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-6 px-4">
+        {/* Deliver Goods Card */}
+        <div className="bg-white shadow-lg rounded-lg overflow-hidden w-full md:w-1/2 max-w-sm">
+          <img src="../../assets/deliver-goods.jpg" alt="Deliver Goods" className="w-full h-48 object-cover" />
+          <div className="p-6">
+            <h3 className="text-xl font-bold mb-2">Deliver Goods</h3>
+            <p className="text-gray-600">We will deliver your goods with care, quality, and class.</p>
           </div>
-        ))}
+        </div>
+
+        {/* Recovery Card */}
+        <div className="bg-white shadow-lg rounded-lg overflow-hidden w-full md:w-1/2 max-w-sm">
+          <img src="../../assets/recovery.jpg" alt="Recovery" className="w-full h-48 object-cover" />
+          <div className="p-6">
+            <h3 className="text-xl font-bold mb-2">Recovery</h3>
+            <p className="text-gray-600">We also alleviate your emergency difficulties with our 24-hour recovery vehicle service.</p>
+          </div>
+        </div>
       </div>
     </section>
   );

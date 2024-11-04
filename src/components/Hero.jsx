@@ -1,5 +1,6 @@
 // src/components/Hero.jsx
 import React from 'react';
+import Logo1 from "../assets/Logo1.png"
 
 function Hero() {
   return (
@@ -19,7 +20,7 @@ function Hero() {
       {/* Logo and Navigation */}
       <div className="absolute top-12 left-0 right-0 px-4 md:px-12 flex justify-between items-center">
         <div className="flex items-center space-x-2">
-          <img src="/Logo1.png" alt="Izzi Alfatih Transport Logo" className="h-10" />
+          <img src='Logo1' alt="Izzi Alfatih Transport Logo" className="h-10" />
           <span className="text-2xl font-bold text-gray-800">Izzi Alfatih Transport</span>
         </div>
         <nav className="hidden md:flex space-x-6 text-gray-700">
