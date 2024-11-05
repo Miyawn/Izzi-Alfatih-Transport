@@ -37,14 +37,24 @@ function Hero() {
       </div>
 
       {/* Main Content */}
-      <div className="container mx-auto flex items-center justify-between h-full px-0 z-10"> {/* Menambah z-index */}
+      <div className="container max-w-full mx-auto flex items-center justify-between h-full pl-12 z-0"> {/* Menambah z-index */}
         {/* Left Side: Text and Buttons */}
         <div className="w-full md:w-1/2 text-left text-white">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-            Izzi Alfatih Transport is the <span className="text-blue-500">solution</span> to your <span className="text-blue-500">business’ success</span>
+            Izzi Alfatih Transport 
+            <br />
+            is the <span className="text-black">solution</span> to your 
+            <br />
+            <span className="text-blue-500">business’ success!</span>
           </h1>
           <p className="mt-5 max-w text-lg">
-            Izzi Alfatih Transport is one of the UK’s leading logistics companies. We offer logistics services for your company that wants to move goods and transact with other companies. Izzi Alfatih Transport upholds quality and class.
+            Izzi Alfatih Transport is one of the UK’s leading logistics companies. 
+            <br />
+            We offer logistics services for your company that wants to move goods
+            <br />
+            and transact with other companies. Izzi Alfatih Transport upholds 
+            <br />
+            quality and class.
           </p>
           <div className="flex space-x-4 mt-6">
             <button className="btn btn-outline btn-primary">TRACK</button>
@@ -52,13 +62,14 @@ function Hero() {
           </div>
         </div>
 
+
         {/* Right Side: Truck Image */}
-        <div className="hidden md:flex md:w-1/2 justify-end overflow-hidden z-10"> {/* Menambah z-index */}
+        <div className="hidden md:flex md:w-1/2 justify-right overflow-hidden z-0"> {/* Menambah z-index */}
           <img
-              src="/src/assets/Truck_Stolpi.png"
+              src="/src/assets/Truk_Stolpi.png"
               alt="Truck"
               className="h-auto"
-              style={{ width: '150%', maxWidth: 'none', transform: 'translateX(25%)', clipPath: 'inset(0 0 0 0)' }}
+              style={{ width: '250%', maxWidth: 'none', transform: 'translateX(10%)', clipPath: 'inset(0 0 0 0)' }}
           />
         </div>
       </div>
@@ -66,20 +77,20 @@ function Hero() {
       {/* Stats */}
       <div className="absolute bottom-8 w-full flex justify-around text-gray-200 text-center px-4 z-10">
         <div>
-          <h2 className="text-2xl font-bold">2021</h2>
           <p>Year Established</p>
+          <h2 className="text-2xl font-bold">2021</h2>
         </div>
         <div>
-          <h2 className="text-2xl font-bold">51</h2>
           <p>Units in total</p>
+          <h2 className="text-2xl font-bold">51</h2>
         </div>
         <div>
-          <h2 className="text-2xl font-bold">31</h2>
           <p>Company Partners</p>
+          <h2 className="text-2xl font-bold">31</h2>
         </div>
         <div>
-          <h2 className="text-2xl font-bold">2156</h2>
           <p>Goods Delivered</p>
+          <h2 className="text-2xl font-bold">2156</h2>
         </div>
       </div>
     </section>

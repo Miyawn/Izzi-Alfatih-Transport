@@ -19,6 +19,9 @@ function App() {
       
       {/* Transport Solutions Section */}
       <TransportSolutions />
+
+      {/* Anywhere */}
+      <Anywhere />
       
       {/* Story Section */}
       <Story />
