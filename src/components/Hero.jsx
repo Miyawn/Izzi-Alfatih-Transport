@@ -6,7 +6,7 @@ function Hero() {
     <section className="relative bg-cover bg-center h-screen flex items-center" style={{ backgroundImage: 'url(/src/assets/Russel_biru.png)' }}>
       
       {/* Background Layer dengan Opacity */}
-      <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
+      <div className="absolute inset-0 bg-gray-100 opacity-45 z-0"></div>
       
 
       {/* Top Bar */}
@@ -25,9 +25,9 @@ function Hero() {
       <div className="absolute top-12 left-0 right-0 px-4 md:px-12 flex justify-between items-center z-10">
         <div className="flex items-center space-x-2">
           <img src='../src/assets/Logo2.png' alt="Izzi Alfatih Transport Logo" className="h-10" />
-          <span className="text-2xl font-bold text-white">Izzi Alfatih Transport</span>
+          <span className="text-2xl font-bold text-black">Izzi Alfatih Transport</span>
         </div>
-        <nav className="hidden md:flex space-x-6 text-gray-200">
+        <nav className="hidden md:flex space-x-6 text-black">
           <a href="#home" className="hover:text-blue-500">Home</a>
           <a href="#about" className="hover:text-blue-500">About</a>
           <a href="#services" className="hover:text-blue-500">Services</a>
@@ -39,15 +39,15 @@ function Hero() {
       {/* Main Content */}
       <div className="container max-w-full mx-auto flex items-center justify-between h-full pl-12 z-0"> {/* Menambah z-index */}
         {/* Left Side: Text and Buttons */}
-        <div className="w-full md:w-1/2 text-left text-white">
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+        <div className="w-full md:w-1/2 text-left text-black">
+          <h1 className="text-4xl md:text-5xl font-medium leading-tight">
             Izzi Alfatih Transport 
             <br />
-            is the <span className="text-black">solution</span> to your 
+            is the <span className="text-black font-bold">solution</span> to your 
             <br />
-            <span className="text-blue-500">business’ success!</span>
+            <span className="text-blue-900 font-bold">business’ success!</span>
           </h1>
-          <p className="mt-5 max-w text-lg">
+          <p className="mt-5 max-w text-lg font-normal">
             Izzi Alfatih Transport is one of the UK’s leading logistics companies. 
             <br />
             We offer logistics services for your company that wants to move goods
@@ -57,8 +57,8 @@ function Hero() {
             quality and class.
           </p>
           <div className="flex space-x-4 mt-6">
-            <button className="btn btn-outline btn-primary">TRACK</button>
-            <button className="btn btn-outline btn-primary">REQUEST A RATE</button>
+            <button className="btn btn-outline border-blue-900 text-blue-900">TRACK</button>
+            <button className="btn btn-outline border-blue-900 text-blue-900">REQUEST A RATE</button>
           </div>
         </div>
 
@@ -75,7 +75,7 @@ function Hero() {
       </div>
 
       {/* Stats */}
-      <div className="absolute bottom-8 w-full flex justify-around text-gray-200 text-center px-4 z-10">
+      <div className="absolute bottom-8 w-full flex justify-around text-blue-900 font-semibold text-center px-4 z-10">
         <div>
           <p>Year Established</p>
           <h2 className="text-2xl font-bold">2021</h2>
