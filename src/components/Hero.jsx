@@ -43,7 +43,7 @@ function Hero() {
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
             Izzi Alfatih Transport is the <span className="text-blue-500">solution</span> to your <span className="text-blue-500">business’ success</span>
           </h1>
-          <p className="mt-4 max-w-md text-lg">
+          <p className="mt-5 max-w text-lg">
             Izzi Alfatih Transport is one of the UK’s leading logistics companies. We offer logistics services for your company that wants to move goods and transact with other companies. Izzi Alfatih Transport upholds quality and class.
           </p>
           <div className="flex space-x-4 mt-6">
@@ -55,7 +55,7 @@ function Hero() {
         {/* Right Side: Truck Image */}
         <div className="hidden md:flex md:w-1/2 justify-end overflow-hidden z-10"> {/* Menambah z-index */}
           <img
-              src="/src/assets/Truck_Hero_1.png"
+              src="/src/assets/Truck_Stolpi.png"
               alt="Truck"
               className="h-auto"
               style={{ width: '150%', maxWidth: 'none', transform: 'translateX(25%)', clipPath: 'inset(0 0 0 0)' }}
