@@ -1,0 +1,91 @@
+/* src/components/RegisterForm.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.register-header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 100px;
+    color: #00296b; /* Sesuaikan warna sesuai keinginan */
+}
+
+.register-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    padding-right: 50px; /* Sesuaikan untuk jarak ke truk di sebelah kiri */
+    background-color: #f5f5f5;
+    background-image: url('../src/assets/registerbg.png'); /* Ganti dengan path gambar truk Anda */
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.register-form {
+    background-color: #ffffff;
+    padding: 40px;
+    height: 650px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: left;
+}
+
+.back-arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #000;
+}
+
+.register-form label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00296b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+.login-button:hover {
+    background-color: #001d4a;
+}
