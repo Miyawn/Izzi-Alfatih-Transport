@@ -7,6 +7,7 @@ import TransportSolutions from './components/TransportSolutions';
 import Story from './components/Story';
 import Articles from './components/Articles';
 import Footer from './components/Footer';
+import Anywhere from './components/Anywhere';
 
 function App() {
   return (
