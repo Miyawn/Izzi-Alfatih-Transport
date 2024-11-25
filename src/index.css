@@ -4,6 +4,8 @@
 @tailwind utilities;
 
 /* DaisyUI theme configuration */
-@layer utilities {
-  /* tambahkan custom utilities jika diperlukan */
+@layer base {
+  App {
+    font-family: "Poppins", sans-serif;
+  }
 }

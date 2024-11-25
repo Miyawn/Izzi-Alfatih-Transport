@@ -1,6 +1,5 @@
-// src/App.jsx
 import React from 'react';
-// import Header from './components/Header';
+import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import TransportSolutions from './components/TransportSolutions';
@@ -11,27 +10,27 @@ import Anywhere from './components/Anywhere';
 
 function App() {
   return (
-    <div className="font-sans">
+    <div>
       {/* Hero Section */}
-      <Hero />
+      <Navbar/>
       
-      {/* Services Section */}
+      {/* Services Section
       <Services />
       
       {/* Transport Solutions Section */}
-      <TransportSolutions />
+      {/* <TransportSolutions />
 
       {/* Anywhere */}
-      <Anywhere />
+      {/* <Anywhere /> */}
       
       {/* Story Section */}
-      <Story />
+      {/* <Story /> */}
       
       {/* Articles Section */}
-      <Articles />
+      {/* <Articles /> */}
       
       {/* Footer Section */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
