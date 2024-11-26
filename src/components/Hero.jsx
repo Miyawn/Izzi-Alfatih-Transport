@@ -6,7 +6,7 @@ function Hero() {
     <section className="relative bg-cover bg-center h-screen flex items-center" style={{ backgroundImage: 'url(/src/assets/Russel_biru.png)' }}>
       
       {/* Background Layer dengan Opacity */}
-      <div className="absolute inset-0 bg-gray-100 opacity-45 z-0"></div>
+      <div className="absolute inset-0 bg-gray-100 opacity-65 z-0"></div>
       
 
       {/* Top Bar */}

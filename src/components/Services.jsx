@@ -7,7 +7,7 @@ const Services = () => {
       style={{ backgroundImage: 'url(/src/assets/Russel_biru.png)' }}
     >
       {/* Overlay untuk background dengan opacity */}
-      <div className="absolute inset-0 bg-gray-100 opacity-65 z-0"></div>
+      <div className="absolute inset-0 bg-gray-800 opacity-55 z-0"></div>
 
       {/* Konten Utama */}
       <div className="container mx-auto px-4 relative z-10"> {/* z-10 untuk memastikan konten di atas overlay */}
