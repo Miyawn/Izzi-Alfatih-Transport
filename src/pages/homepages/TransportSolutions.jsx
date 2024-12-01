@@ -2,9 +2,9 @@ import React from "react";
 
 const TransportSolutions = () => {
   return (
-    <section className="relative bg-cover bg-center py-16" style={{ backgroundImage: 'url(/src/assets/IAT_Scania.png)' }}>
+    <section className="relative bg-cover bg-center py-16" style={{ backgroundImage: 'url(/src/assets/russell.png)' }}>
       {/* Overlay Layer */}
-      <div className="absolute inset-0 bg-gray-800 opacity-55 z-0"></div>
+      <div className="absolute inset-0 bg-gray-700 opacity-75 z-0"></div>
 
       <div className="relative container mx-auto px-6 z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -27,7 +27,7 @@ const TransportSolutions = () => {
           {/* Right Image */}
           <div>
             <img
-              src="../src/assets/Honka.png"
+              src="../src/assets/IAT_Scania.png"
               alt="Truck on the road"
               className="rounded shadow-md"
             />
@@ -39,7 +39,7 @@ const TransportSolutions = () => {
           {/* Left Image */}
           <div className="flex justify-center">
             <img
-              src="../src/assets/IAT_Scania.png"
+              src="../src/assets/Air_Products.png"
               alt="Truck with trailer"
               className="rounded shadow-md max-w-full h-auto"
             />

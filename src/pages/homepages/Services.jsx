@@ -1,13 +1,14 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 
 const Services = () => {
   return (
     <section
       className="relative bg-cover bg-center h-screen flex items-center py-16"
-      style={{ backgroundImage: 'url(/src/assets/Russel_biru.png)' }}
+      style={{ backgroundImage: 'url(/src/assets/schmitz.png)' }}
     >
       {/* Overlay untuk background dengan opacity */}
-      <div className="absolute inset-0 bg-gray-800 opacity-55 z-0"></div>
+      <div className="absolute inset-0 bg-gray-400 opacity-55 z-0"></div>
 
       {/* Konten Utama */}
       <div className="container mx-auto px-4 relative z-10"> {/* z-10 untuk memastikan konten di atas overlay */}
@@ -21,9 +22,9 @@ const Services = () => {
           {/* Service 1 */}
           <div className="bg-white text-black rounded-lg shadow-lg overflow-hidden">
             <img
-              src="../src/assets/Honka.png"
+              src="../src/assets/iatv8.png"
               alt="Deliver Goods"
-              className="w-full h-55 object-cover"
+              className="w-full h-100 object-cover"
             />
             <div className="p-6 text-center">
               <h3 className="text-xl font-bold">Deliver Goods</h3>
@@ -36,9 +37,9 @@ const Services = () => {
           {/* Service 2 */}
           <div className="bg-white text-black rounded-lg shadow-lg overflow-hidden">
             <img
-              src="../src/assets/Honka.png"
+              src="../src/assets/recovery.png"
               alt="Recovery"
-              className="w-full h-55 object-cover"
+              className="w-full h-100 object-cover"
             />
             <div className="p-6 text-center">
               <h3 className="text-xl font-bold">Recovery</h3>

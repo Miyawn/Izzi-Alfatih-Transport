@@ -1,40 +1,16 @@
 // src/components/Hero.jsx
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 
 function Hero() {
   return (
-    <section className="relative bg-cover bg-center h-screen flex items-center" style={{ backgroundImage: 'url(/src/assets/Russel_biru.png)' }}>
-      
+    <section
+      className="relative bg-cover bg-center h-screen flex items-center" 
+      style={{ backgroundImage: 'url(/src/assets/Russel_biru.png)' }}
+    >
+
       {/* Background Layer dengan Opacity */}
       <div className="absolute inset-0 bg-gray-100 opacity-65 z-0"></div>
-      
-
-      {/* Top Bar */}
-      <div className="absolute top-0 left-0 right-0 bg-white bg-opacity-70 px-4 py-2 flex justify-between items-center text-sm z-10">
-        <div className="flex items-center space-x-4">
-          <a href="#" className="text-black font-semibold">📞 +62 896 3736 9338</a>
-          <a href="#" className="text-black font-semibold">📧 izzifatihtransport@email.com</a>
-        </div>
-        <div className="flex items-center space-x-4">
-          <a href="#" className="text-black font-semibold">All weekdays at 08.00 - 19.00</a>
-          <a href="#" className="text-blue-600 font-semibold">TRACK & TRACE →</a>
-        </div>
-      </div>
-
-      {/* Logo and Navigation */}
-      <div className="absolute top-12 left-0 right-0 px-4 md:px-12 flex justify-between items-center z-10">
-        <div className="flex items-center space-x-2">
-          <img src='../src/assets/Logo2.png' alt="Izzi Alfatih Transport Logo" className="h-10" />
-          <span className="text-2xl font-bold text-black">Izzi Alfatih Transport</span>
-        </div>
-        <nav className="hidden md:flex space-x-6 text-black">
-          <a href="#home" className="hover:text-blue-500">Home</a>
-          <a href="#about" className="hover:text-blue-500">About</a>
-          <a href="#services" className="hover:text-blue-500">Services</a>
-          <a href="#news" className="hover:text-blue-500">News</a>
-          <a href="#solutions" className="hover:text-blue-500">Solutions</a>
-        </nav>
-      </div>
 
       {/* Main Content */}
       <div className="container max-w-full mx-auto flex items-center justify-between h-full pl-12 z-0"> {/* Menambah z-index */}

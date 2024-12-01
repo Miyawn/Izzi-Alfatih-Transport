@@ -5,7 +5,7 @@ const Anywhere = () => {
     <section
       className="relative py-16 bg-cover bg-center"
       style={{
-        backgroundImage: 'url("../src/assets/izi.jpg")', // Ganti dengan file latar belakang Anda
+        backgroundImage: 'url("../src/assets/seago.png")', // Ganti dengan file latar belakang Anda
       }}
     >
       {/* Overlay Layer */}
@@ -28,7 +28,7 @@ const Anywhere = () => {
           {/* Image 1 */}
           <div className="col-span-1 rounded-xl overflow-hidden shadow-lg">
             <img
-              src="../src/assets/scaniaaa.jpg" // Ganti dengan file gambar
+              src="../src/assets/any1.png" // Ganti dengan file gambar
               alt="Desert Road"
               className="object-cover"
               style={{ height: "700px", width: "2000px" }} // Atur tinggi dan lebar secara bebas
@@ -37,7 +37,7 @@ const Anywhere = () => {
           {/* Image 2 */}
           <div className="col-span-1 rounded-xl overflow-hidden shadow-lg">
             <img
-              src="../src/assets/720s.png" // Ganti dengan file gambar
+              src="../src/assets/any2.png" // Ganti dengan file gambar
               alt="Snowy Road"
               className="object-cover"
               style={{ height: "700px", width: "2000px" }} // Atur tinggi dan lebar secara bebas
@@ -46,7 +46,7 @@ const Anywhere = () => {
           {/* Image 3 */}
           <div className="col-span-1 rounded-xl overflow-hidden shadow-lg">
             <img
-              src="../src/assets/720s.png" // Ganti dengan file gambar
+              src="../src/assets/any3.png" // Ganti dengan file gambar
               alt="City Road"
               className="object-cover"
               style={{ height: "700px", width: "2000px" }} // Atur tinggi dan lebar secara bebas
