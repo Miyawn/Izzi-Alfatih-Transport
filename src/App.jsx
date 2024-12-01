@@ -8,6 +8,11 @@ import AboutPage from './pages/AboutPage';
 import ServicesPage from './pages/ServicesPage';
 import NewsPage from './pages/NewsPage';
 import SolutionsPage from './pages/SolutionsPage';
+import Track from './pages/Track';
+import RequestRate from './pages/RequestRate';
+import ArticlePost from './pages/ArticlePost';
+import DeliverGoods from './pages/services/DeliverGoods';
+import Recovery from './pages/services/Recovery';
 
 function App() {
   return (
@@ -16,23 +21,22 @@ function App() {
         {/* Routing untuk halaman-halaman */}
         <Routes>
           {/* Auth */}
-          <Route path='/Login' element={<LoginForm />} />
-          <Route path='/Register' element={<RegisterForm />} />
+          <Route path='/login' element={<LoginForm />} />
+          <Route path='/register' element={<RegisterForm />} />
 
-          {/* Home */}
+          {/* Pages */}
           <Route path="/" element={<Home />} />
-          
-          {/* Pages About */}
-          <Route path="/About" element={<AboutPage />} /> 
+          <Route path="/about" element={<AboutPage />} /> 
+          <Route path='/services' element={<ServicesPage />} />
+          <Route path='/news' element={<NewsPage />} />
+          <Route path='/solutions' element={<SolutionsPage />} />
 
-          {/* Pages Services */}
-          <Route path='/Services' element={<ServicesPage />} />
-
-          {/* Pages News */}
-          <Route path='/News' element={<NewsPage />} />
-
-          {/* Pages Solutions */}
-          <Route path='/Solutions' element={<SolutionsPage />} />
+          {/* Page Routes */}
+          <Route path="/track" element={<Track />} />
+          <Route path="/requestrate" element={<RequestRate />} />
+          <Route path="/post" element={<ArticlePost />} />
+          <Route path="/services/delivergoods" element={<DeliverGoods />} />
+          <Route path="/services/recovery" element={<Recovery />} />
         </Routes>
 
       </div>
