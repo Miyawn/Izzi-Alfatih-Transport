@@ -1,19 +1,44 @@
 // src/components/Hero.jsx
 // eslint-disable-next-line no-unused-vars
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 
 function Hero() {
+  // State untuk track apakah hero terlihat di layar atau tidak
+  const [inView, setInView] = useState(true);
+
+  useEffect(() => {
+    // Fungsi untuk memeriksa apakah halaman sedang berada di bagian Hero
+    const handleScroll = () => {
+      const heroSection = document.getElementById('hero');
+      const rect = heroSection.getBoundingClientRect();
+      
+      // Jika bagian hero ada di viewport, set inView ke true
+      if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+        setInView(true);
+      } else {
+        setInView(false);
+      }
+    };
+
+    // Menambahkan event listener untuk scroll
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup listener saat komponen di-unmount
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <section
+      id="hero"  // Memberikan id untuk section ini agar dapat dipantau
       className="relative bg-cover bg-center h-screen flex items-center" 
       style={{ backgroundImage: 'url(/src/assets/Russel_biru.png)' }}
     >
-
       {/* Background Layer dengan Opacity */}
       <div className="absolute inset-0 bg-gray-100 opacity-65 z-0"></div>
 
       {/* Main Content */}
-      <div className="container max-w-full mx-auto flex items-center justify-between h-full pl-12 z-0"> {/* Menambah z-index */}
+      <div className="container max-w-full mx-auto flex items-center justify-between h-full pl-12 z-0">
         {/* Left Side: Text and Buttons */}
         <div className="w-full md:w-1/2 text-left text-black">
           <h1 className="text-4xl md:text-5xl font-medium leading-tight">
@@ -38,14 +63,16 @@ function Hero() {
           </div>
         </div>
 
-
         {/* Right Side: Truck Image */}
-        <div className="hidden md:flex md:w-1/2 justify-right overflow-hidden z-0"> {/* Menambah z-index */}
-          <img
+        <div className="hidden md:flex md:w-1/2 justify-right overflow-hidden z-0">
+          <motion.img
               src="/src/assets/Truk_Stolpi.png"
               alt="Truck"
               className="h-auto"
-              style={{ width: '250%', maxWidth: 'none', transform: 'translateX(10%)', clipPath: 'inset(0 0 0 0)' }}
+              initial={{ x: '100%' }}  // Posisi awal di luar layar
+              animate={{ x: inView ? '0%' : '100%' }}  // Jika Hero terlihat, gambar akan muncul
+              transition={{ type: 'spring', stiffness: 50, damping: 25 }}
+              style={{ width: '250%', maxWidth: 'none', clipPath: 'inset(0 0 0 0)' }}
           />
         </div>
       </div>
