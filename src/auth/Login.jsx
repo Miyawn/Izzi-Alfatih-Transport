@@ -54,7 +54,7 @@ const LoginForm = () => {
               />
             </div>
             <div style={styles.footerText}>
-              <span>Don't have an account? </span>
+              <span> Don&apos;t have an account? </span>
               <a href="/register" style={styles.registerLink}>Register</a>
             </div>
             <button type="submit" style={styles.button}>LOGIN</button>

@@ -1,8 +1,9 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/home';
-import LoginForm from './pages/Login';
-import RegisterForm from './pages/Register';
+import LoginForm from './auth/Login';
+import RegisterForm from './auth/Register';
 import AboutPage from './pages/AboutPage';
 import ServicesPage from './pages/ServicesPage';
 import NewsPage from './pages/NewsPage';

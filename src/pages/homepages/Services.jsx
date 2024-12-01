@@ -13,7 +13,7 @@ const Services = () => {
       {/* Konten Utama */}
       <div className="container mx-auto px-4 relative z-10"> {/* z-10 untuk memastikan konten di atas overlay */}
         {/* Title */}
-        <h2 className="text-center text-3xl md:text-4xl font-bold mb-12 text-black font-semibold">
+        <h2 className="text-center text-3xl md:text-4xl mb-12 text-black font-semibold">
           <span className="text-blue-900">Our main</span> services
         </h2>
 
