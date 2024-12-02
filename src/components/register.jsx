@@ -18,7 +18,7 @@ const RegisterForm = () => {
                     <label htmlFor="confirm-password">Confirm Password</label>
                     <input type="password" id="confirm-password" name="confirm-password" placeholder="Type here" required />
 
-                    <button type="submit" className="login-button">LOGIN</button>
+                    <button type="submit" className="login-button">Daftar</button>
                 </form>
             </div>
         </div>

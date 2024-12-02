@@ -11,11 +11,39 @@ body {
 }
 
 .register-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.register-header h1 {
     font-size: 24px;
-    font-weight: bold;
-    text-align: left;
-    margin-bottom: 100px;
-    color: #00296b; /* Sesuaikan warna sesuai keinginan */
+    color: #333;
+}
+
+.register-header .login-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.register-header .login-link:hover {
+    text-decoration: underline;
+}
+
+/* Style lain yang sudah ada */
+.register-form {
+    /* Style form yang sudah ada */
+}
+
+.back-arrow {
+    /* Style untuk tombol kembali yang sudah ada */
+}
+
+.login-button {
+    /* Style untuk tombol daftar yang sudah ada */
 }
 
 .register-container {
