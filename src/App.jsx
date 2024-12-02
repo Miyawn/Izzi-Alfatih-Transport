@@ -2,8 +2,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/home';
-import LoginForm from './auth/Login';
-import RegisterForm from './auth/Register';
 import AboutPage from './pages/AboutPage';
 import ServicesPage from './pages/ServicesPage';
 import NewsPage from './pages/NewsPage';
@@ -20,10 +18,6 @@ function App() {
       <div>
         {/* Routing untuk halaman-halaman */}
         <Routes>
-          {/* Auth */}
-          <Route path='/login' element={<LoginForm />} />
-          <Route path='/register' element={<RegisterForm />} />
-
           {/* Pages */}
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutPage />} /> 

@@ -62,13 +62,13 @@ function Hero() {
 
         <div className="hidden md:flex md:w-1/2 justify-right overflow-hidden z-0">
           <motion.img
-            src="/src/assets/Truk_Stolpi.png"
+            src="/src/assets/herotruk.png"
             alt="Truck"
             className="h-auto"
             initial={{ x: '100%' }}
-            animate={{ x: inView ? '0%' : '100%' }}
+            animate={{ x: inView ? '-10%' : '100%' }}
             transition={{ type: 'spring', stiffness: 50, damping: 25 }}
-            style={{ width: '250%', maxWidth: 'none', clipPath: 'inset(0 0 0 0)' }}
+            style={{ width: '150%', maxWidth: 'none', clipPath: 'inset(0 0 0 0)' }}
           />
         </div>
       </div>

@@ -20,25 +20,22 @@ const Navbar = () => {
   return (
     <div
       className={`fixed w-full top-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-lg' : 'bg-transparent'
+        isScrolled ? 'bg-white bg-opacity-50 shadow-lg' : 'bg-transparent'
       }`}
     >
-      <div
-        className={`${
-          isScrolled ? 'bg-opacity-100' : 'bg-opacity-70'
-        } bg-white px-4 py-2 flex justify-between items-center text-sm transition-all`}
-      >
+      {/* Topbar */}
+      <div className="bg-white px-4 py-2 flex justify-between items-center text-sm bg-opacity-90">
         <div className="flex items-center space-x-4">
           <a href="tel:+6289637369338" className="text-black font-semibold">
             📞 +62 896 3736 9338
           </a>
           <a href="mailto:izzifatihtransport@email.com" className="text-black font-semibold">
-            📧 izzifatihtransport@email.com
+            📧 izzialfatihtransport@gmail.com
           </a>
         </div>
         <div className="flex items-center space-x-4">
           <a href="#" className="text-black font-semibold">
-            All weekdays at 08.00 - 19.00
+            All weekdays at 08.00 - 17.00
           </a>
           <NavLink to="/track" className="text-blue-600 font-semibold">
             TRACK →
@@ -46,7 +43,10 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="px-4 py-4 md:px-12 flex justify-between items-center">
+      {/* Navbar */}
+      <div
+        className="px-4 py-4 md:px-12 flex justify-between items-center transition-all duration-300"
+      >
         <div className="flex items-center space-x-2">
           <img
             src="../src/assets/Logo2.png"

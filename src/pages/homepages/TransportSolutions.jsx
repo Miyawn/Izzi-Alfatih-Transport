@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
+import { Link } from "react-router-dom"; // Pastikan React Router digunakan
 
 const TransportSolutions = () => {
   return (
@@ -21,9 +22,12 @@ const TransportSolutions = () => {
               <br /> and our expert working group connects all the links of the
               <br /> domestic demand.
             </p>
-            <button className="px-6 py-2 border border-white text-white rounded hover:bg-white hover:text-blue-900 transition">
+            <Link
+              to="/solutions"
+              className="px-6 py-2 border border-white text-white rounded hover:bg-white hover:text-blue-900 transition"
+            >
               Read More
-            </button>
+            </Link>
           </div>
           {/* Right Image */}
           <div>
@@ -50,15 +54,18 @@ const TransportSolutions = () => {
           <div className="flex flex-col items-start justify-center space-y-6 text-left lg:pl-20 xl:pl-32">
             <h2 className="text-3xl lg:text-4xl font-bold text-white leading-snug">
               Key <span className="font-medium">information</span> <br />
-              for investors and financial <br/> community
+              for investors and financial <br /> community
             </h2>
             <p className="text-white leading-relaxed">
               Our operations are global, covering more than 160 countries <br />
               in approximately 1,000 locations.
             </p>
-            <button className="px-6 py-3 border border-white text-white rounded-lg hover:bg-white hover:text-blue-900 transition duration-300">
+            <Link
+              to="/solutions"
+              className="px-6 py-3 border border-white text-white rounded-lg hover:bg-white hover:text-blue-900 transition duration-300"
+            >
               Read More
-            </button>
+            </Link>
           </div>
         </div>
       </div>

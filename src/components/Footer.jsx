@@ -31,11 +31,6 @@ const Footer = () => (
       <div id="social-media" className="space-y-2">
         <h4 className="font-bold text-lg">SOCIAL MEDIA</h4>
         <div className="flex space-x-2">
-          <div className="w-6 h-6 bg-gray-700"></div>
-          <div className="w-6 h-6 bg-gray-700"></div>
-          <div className="w-6 h-6 bg-gray-700"></div>
-          <div className="w-6 h-6 bg-gray-700"></div>
-          <div className="w-6 h-6 bg-gray-700"></div>
         </div>
       </div>
     </div>
