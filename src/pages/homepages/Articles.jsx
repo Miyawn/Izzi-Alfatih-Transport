@@ -6,7 +6,7 @@ const Articles = () => {
   // Daftar artikel
   const allArticles = [
     { title: 'We Are Hiring', summary: 'Be One of Our Driver!', imgSrc: '../src/assets/Russel_biru.png', link: '/article/hiring' },
-    { title: 'Remembrance Day', summary: 'We Honour those who gave their lives to serve our country', imgSrc: '../src/assets/seago.png', link: '/article/remembrance' },
+    { title: 'Remembrance Day', summary: 'We Honour those who gave their lives to serve our country', imgSrc: '../src/assets/remembrance.png', link: '/article/remembrance' },
     { title: 'Safety Comes First', summary: 'Keselamatan bukan sekedar Prioritas Cik', imgSrc: '../src/assets/Air_Products.png', link: '/article/safety' },
   ];
 
