@@ -26,15 +26,15 @@ const Navbar = () => {
       {/* Topbar */}
       <div className="bg-white px-4 py-2 flex justify-between items-center text-sm bg-opacity-90">
         <div className="flex items-center space-x-4">
-          <a href="tel:+6289637369338" className="text-black font-semibold">
+          <a className="text-black font-semibold">
             📞 +62 896 3736 9338
           </a>
-          <a href="mailto:izzifatihtransport@email.com" className="text-black font-semibold">
+          <a className="text-black font-semibold">
             📧 izzialfatihtransport@gmail.com
           </a>
         </div>
         <div className="flex items-center space-x-4">
-          <a href="#" className="text-black font-semibold">
+          <a className="text-black font-semibold">
             All weekdays at 08.00 - 17.00
           </a>
           <NavLink to="/track" className="text-blue-600 font-semibold">
@@ -67,11 +67,11 @@ const Navbar = () => {
           <NavLink to="/services" className="hover:text-blue-500" activeClassName="text-blue-600">
             Services
           </NavLink>
-          <NavLink to="/news" className="hover:text-blue-500" activeClassName="text-blue-600">
-            News
+          <NavLink to="/article" className="hover:text-blue-500" activeClassName="text-blue-600">
+            Article
           </NavLink>
-          <NavLink to="/solutions" className="hover:text-blue-500" activeClassName="text-blue-600">
-            Solutions
+          <NavLink to="/driver" className="hover:text-blue-500" activeClassName="text-blue-600">
+            Driver
           </NavLink>
         </nav>
       </div>

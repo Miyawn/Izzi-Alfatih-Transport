@@ -55,9 +55,9 @@ const Story = () => {
   };
 
   return (
-    <section className="h-[500px] bg-blue-900 text-white text-center relative flex flex-col justify-center">
+    <section className="h-[600px] bg-blue-900 text-white text-center relative flex flex-col justify-center">
       {/* Judul Dinamis */}
-      <h2 className="text-4xl font-semibold mb-6">{stories[currentStory].title}</h2>
+      <h2 className="text-4xl font-semibold mb-16">{stories[currentStory].title}</h2>
 
       {/* Kontainer Kutipan */}
       <div className="flex flex-col items-center max-w-3xl mx-auto px-4">
@@ -65,7 +65,7 @@ const Story = () => {
         <img
           src={stories[currentStory].image} // Gambar dinamis berdasarkan story yang aktif
           alt={stories[currentStory].author}
-          className="w-24 h-24 rounded-lg mb-6 object-cover"
+          className="w-40 h-40 rounded-lg mb-16 object-cover"
         />
 
         {/* Kutipan */}

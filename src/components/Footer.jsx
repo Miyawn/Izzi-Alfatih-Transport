@@ -4,7 +4,7 @@ import React from 'react';
 
 const Footer = () => (
   <footer className="bg-gray-100 text-black py-10 border-t border-gray-300">
-    <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+    <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-96 text-left">
       {/* Company Section */}
       <div id="company" className="space-y-2">
         <h4 className="font-bold text-lg">COMPANY</h4>
@@ -14,9 +14,9 @@ const Footer = () => (
         {/* Tambahkan margin besar untuk jarak dengan Copyright */}
         <p
           className="text-sm text-gray-600"
-          style={{ marginTop: '40px', paddingTop: '20px' }}
+          style={{ marginTop: '40px', paddingTop: '80px' }}
         >
-          Copyright 2024 Izzi Alfatih Transport
+          © Copyright 2024, <br /> Desain Web 2 : Izzi Alfatih Transport
         </p>
       </div>
 
@@ -24,13 +24,46 @@ const Footer = () => (
       <div id="contact" className="space-y-2">
         <h4 className="font-bold text-lg">CONTACT</h4>
         <p>+62 896 3736 9338</p>
-        <p>izzialfatihtransport@email.com</p>
+        <p>izzialfatihtransport@gmail.com</p>
       </div>
 
       {/* Social Media Section */}
-      <div id="social-media" className="space-y-2">
+      <div id="social-media" className="space-y-4">
         <h4 className="font-bold text-lg">SOCIAL MEDIA</h4>
-        <div className="flex space-x-2">
+        <div className="flex items-center space-x-2">
+          <img
+            className="w-6 h-6"
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+            alt="Instagram"
+          />
+          <p>@ia.transport</p>
+        </div>
+
+        {/* Partner Section */}
+        <h4 className="font-bold text-lg mt-6">PARTNER</h4>
+        <div className="flex items-center space-x-2">
+          <img
+            className="w-6 h-6"
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+            alt="Instagram"
+          />
+          <p>@twentysixx.idn</p>
+        </div>
+        <div className="flex items-center space-x-2">
+          <img
+            className="w-6 h-6"
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+            alt="Instagram"
+          />
+          <p>@kopidarihati.bpp2</p>
+        </div>
+        <div className="flex items-center space-x-2">
+          <img
+            className="w-6 h-6"
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+            alt="Instagram"
+          />
+          <p>@kizikafuka477</p>
         </div>
       </div>
     </div>

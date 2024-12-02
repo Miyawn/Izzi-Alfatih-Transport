@@ -22,12 +22,6 @@ const TransportSolutions = () => {
               <br /> and our expert working group connects all the links of the
               <br /> domestic demand.
             </p>
-            <Link
-              to="/solutions"
-              className="px-6 py-2 border border-white text-white rounded hover:bg-white hover:text-blue-900 transition"
-            >
-              Read More
-            </Link>
           </div>
           {/* Right Image */}
           <div>
@@ -60,12 +54,6 @@ const TransportSolutions = () => {
               Our operations are global, covering more than 160 countries <br />
               in approximately 1,000 locations.
             </p>
-            <Link
-              to="/solutions"
-              className="px-6 py-3 border border-white text-white rounded-lg hover:bg-white hover:text-blue-900 transition duration-300"
-            >
-              Read More
-            </Link>
           </div>
         </div>
       </div>

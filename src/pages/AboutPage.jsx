@@ -19,7 +19,7 @@ const AboutPage = () => {
             alt="Background"
           />
           <div className="absolute text-center">
-            <h1 className="text-[#012169] text-6xl font-semibold">Siapa Kita?</h1>
+            <h1 className="text-[#012169] text-6xl font-semibold">Siapa Kita? 😎🤙</h1>
           </div>
         </div>
 
@@ -52,7 +52,7 @@ const AboutPage = () => {
 
         {/* Visi Kami dan Nilai Inti */}
         <div className="bg-[#faf9f6] py-16">
-          <div className="container mx-auto grid grid-cols-2 gap-16">
+          <div className="container mx-auto grid grid-cols-2 gap-32">
             <div>
               <h2 className="text-[#012169] text-5xl font-bold mb-4">Visi Kami</h2>
               <p className="text-black text-xl font-medium leading-relaxed">

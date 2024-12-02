@@ -1,10 +1,10 @@
-// src/pages/ArticlePost.jsx
+// src/pages/Remembrance.jsx
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/Footer';
 
-const ArticlePost = () => {
+const Remembrance = () => {
   return (
     <div>
       <Navbar />
@@ -17,4 +17,4 @@ const ArticlePost = () => {
   );
 };
 
-export default ArticlePost;
+export default Remembrance;
