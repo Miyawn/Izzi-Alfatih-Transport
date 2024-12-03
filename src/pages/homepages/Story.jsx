@@ -82,7 +82,7 @@ const Story = () => {
         {/* Tombol Kiri */}
         <button
           onClick={goToPrevStory}
-          className="w-12 h-12 flex items-center justify-center px-6 py-2 border border-white text-white rounded hover:bg-white hover:text-blue-900 rounded-lg hover:scale-110 transform transition-all duration-300"
+          className="w-12 h-12 flex items-center justify-center px-6 py-2 border border-white text-white hover:bg-white hover:text-blue-900 rounded-lg hover:scale-110 transform transition-all duration-300"
           aria-label="Previous"
         >
           &#x276E; {/* Panah Kiri */}
@@ -91,7 +91,7 @@ const Story = () => {
         {/* Tombol Kanan */}
         <button
           onClick={goToNextStory}
-          className="w-12 h-12 flex items-center justify-center px-6 py-2 border border-white text-white rounded hover:bg-white hover:text-blue-900 rounded-lg hover:scale-110 transform transition-all duration-300"
+          className="w-12 h-12 flex items-center justify-center px-6 py-2 border border-white text-white hover:bg-white hover:text-blue-900 rounded-lg hover:scale-110 transform transition-all duration-300"
           aria-label="Next"
         >
           &#x276F; {/* Panah Kanan */}
