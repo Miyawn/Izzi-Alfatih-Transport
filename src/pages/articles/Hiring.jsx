@@ -37,17 +37,17 @@ const Hiring = () => {
       <div className="w-full flex justify-center items-center">
         <img
           className="w-2/6 object-cover"
-          src="../src/assets/seago.png"
+          src="../src/assets/day6.png"
           alt="Left Part of Connected Image"
         />
         <img
           className="w-2/6 object-cover"
-          src="../src/assets/seago.png"
+          src="../src/assets/izi.jpg"
           alt="Right Part of Connected Image"
         />
       </div>
 
-      {/* "Komitmen Kami" dan "Mengapa Penting?" Section */}
+      {/* "Job Deskripsi dan Qualification */}
       <div className="container mx-auto px-6 py-16 grid grid-cols-2 gap-8">
         <div>
           <h3 className="text-4xl font-bold text-[#012169] mb-4 ">Job Description</h3>
