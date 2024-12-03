@@ -37,12 +37,12 @@ const Safety = () => {
       <div className="w-full flex justify-center items-center">
         <img
           className="w-2/6 object-cover"
-          src="../src/assets/seago.png"
+          src="../src/assets/safety2.jpg"
           alt="Left Part of Connected Image"
         />
         <img
           className="w-2/6 object-cover"
-          src="../src/assets/seago.png"
+          src="../src/assets/safety3.jpg"
           alt="Right Part of Connected Image"
         />
       </div>

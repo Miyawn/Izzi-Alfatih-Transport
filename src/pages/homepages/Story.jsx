@@ -10,7 +10,7 @@ const Story = () => {
       quote: '"Mesin ini berisik karena hati yang kau usik"',
       author: "Izzi Alfatih",
       position: "Direktur Utama IAT",
-      image: "../src/assets/quote_izzi.png", // Ganti dengan path gambar
+      image: "../src/assets/skena.jpg", // Ganti dengan path gambar
     },
     {
       title: "Why Every Cup Tells a Story", // Judul dinamis untuk story kedua
