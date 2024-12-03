@@ -7,37 +7,37 @@ const Story = () => {
   const stories = [
     {
       title: "Our Story Remains After the Harsh Storm", // Judul dinamis untuk story pertama
-      quote: '"Berhasil bertahan setelah masa pandemi adalah prestasi yang harus diingat dalam sejarah perusahaan ini cik"',
+      quote: '"Mesin ini berisik karena hati yang kau usik"',
       author: "Izzi Alfatih",
       position: "Direktur Utama IAT",
-      image: "../src/assets/izi.jpg", // Ganti dengan path gambar
+      image: "../src/assets/quote_izzi.png", // Ganti dengan path gambar
     },
     {
-      title: "How Safety is Viewed from Our Principle", // Judul dinamis untuk story kedua
-      quote: '"Keselamatan Kerja pegawai lebih berharga dari materi apa pun"',
-      author: "Chukwu Diaberemaduabum",
-      position: "Manager Sumber Rejo Forest",
-      image: "../src/assets/izi.jpg", // Ganti dengan path gambar lainnya
+      title: "Why Every Cup Tells a Story", // Judul dinamis untuk story kedua
+      quote: '"Biarin hari ini patah hati, besok-besok nyesel pasti"',
+      author: "Rubi",
+      position: "Manager Kopi Dari Hati",
+      image: "../src/assets/quote_rubi.png", // Ganti dengan path gambar lainnya
     },
     {
-      title: "La Kompe has Spoken", // Judul dinamis untuk story pertama
-      quote: '"Untuk Lebih baik adalah berubah, jadi untuk menjadi sangat baik adalah dengan berubah lebih sering dari yang lain"',
-      author: "La Kompe",
+      title: "Why the Road is Our Home", // Judul dinamis untuk story pertama
+      quote: '"Kecepatan bukan hanya soal mesin, tapi juga nyali, strategi, dan konsistensi di setiap"',
+      author: "Taufiq",
       position: "Driver",
-      image: "../src/assets/izi.jpg", // Ganti dengan path gambar
+      image: "../src/assets/quote_taufiq.png", // Ganti dengan path gambar
     },
     {
-      title: "Our Journey Through the Storm", // Judul dinamis untuk story pertama
-      quote: '"Berhasil bertahan setelah masa pandemi adalah prestasi yang harus diingat dalam sejarah perusahaan ini"',
-      author: "Izzi Alfatih",
-      position: "Direktur Utama IAT",
-      image: "../src/assets/izi.jpg", // Ganti dengan path gambar
+      title: "How Survival Becomes Second Nature", // Judul dinamis untuk story pertama
+      quote: '"Kaki boleh beristirahat tapi impianmu tidak boleh berhenti berjalan"',
+      author: "Sepa",
+      position: "Driver in disguise",
+      image: "../src/assets/quote_sepa.png", // Ganti dengan path gambar
     },
     {
-      title: "Our Journey Through the Storm", // Judul dinamis untuk story pertama
+      title: "How Tuning Unleashes Identity", // Judul dinamis untuk story pertama
       quote: '"Berhasil bertahan setelah masa pandemi adalah prestasi yang harus diingat dalam sejarah perusahaan ini"',
-      author: "Izzi Alfatih",
-      position: "Direktur Utama IAT",
+      author: "Tengku",
+      position: "Engineer",
       image: "../src/assets/izi.jpg", // Ganti dengan path gambar
     },
     // Tambahkan cerita lainnya di sini
