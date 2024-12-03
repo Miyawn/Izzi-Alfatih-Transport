@@ -34,6 +34,15 @@ const Remembrance = () => {
           We remember those who lost their lives on active service in all conflicts; from the <br />
           beginning of the First World War right up to the present day. We also remember <br />
           all those who have served and their families.
+          <br />
+          <br />
+          We unite across faiths, cultures and backgrounds to remember the service and sacrifice <br />
+          of the Armed Forces community from United Kingdom and the Commonwealth. <br />
+          We will remember them.
+          <br />
+          <br />
+          Izzi Alfatih Transport also pays tribute to the veterans. Poppies on our truck is one of our <br />
+          kind of tribute. And every year we've never missed.
         </p>
         {/* Images */}
         <div className="flex flex-wrap justify-center gap-6">
