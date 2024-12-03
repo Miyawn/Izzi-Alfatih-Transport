@@ -52,10 +52,7 @@ function Hero() {
           </p>
           <div className="flex space-x-4 mt-6">
             <Link to="/track">
-              <button className="btn btn-outline border-blue-900 text-blue-900">TRACK</button>
-            </Link>
-            <Link to="/requestrate">
-              <button className="btn btn-outline border-blue-900 text-blue-900">REQUEST A RATE</button>
+              <button className="btn btn-outline border-blue-900 text-blue-900 px-40 py-2">TRACK</button>
             </Link>
           </div>
         </div>

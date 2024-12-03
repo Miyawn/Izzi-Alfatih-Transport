@@ -32,7 +32,7 @@ const Recovery = () => {
         {/* Description */}
         <h3 className="text-black text-2xl font-light mb-12 mt-12 leading-snug ml-6">
           Kita bisa menyelamatkan kendaraan anda yang sedang mogok atau pun kecelakaan berat karena skill <br />
-          mengemudi anda rendah cik
+          mengemudi anda rendah cik, huuuu skill issuee huuuuuuuuuuuu 😜
         </h3>
         <h2 className="text-[#012169] text-5xl font-bold mt-20 mb-16 ml-6">
           Recovery Documentations

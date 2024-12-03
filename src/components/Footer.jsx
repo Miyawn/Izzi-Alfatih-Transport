@@ -31,39 +31,67 @@ const Footer = () => (
       <div id="social-media" className="space-y-4">
         <h4 className="font-bold text-lg">SOCIAL MEDIA</h4>
         <div className="flex items-center space-x-2">
-          <img
-            className="w-6 h-6"
-            src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
-            alt="Instagram"
-          />
-          <p>@ia.transport</p>
+          <a
+            href="https://www.instagram.com/ia.transport"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2"
+          >
+            <img
+              className="w-6 h-6"
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+              alt="Instagram"
+            />
+            <p>@ia.transport</p>
+          </a>
         </div>
 
         {/* Partner Section */}
         <h4 className="font-bold text-lg mt-6">PARTNER</h4>
         <div className="flex items-center space-x-2">
-          <img
-            className="w-6 h-6"
-            src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
-            alt="Instagram"
-          />
-          <p>@twentysixx.idn</p>
+          <a
+            href="https://www.instagram.com/twentysixx.idn"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2"
+          >
+            <img
+              className="w-6 h-6"
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+              alt="Instagram"
+            />
+            <p>@twentysixx.idn</p>
+          </a>
         </div>
         <div className="flex items-center space-x-2">
-          <img
-            className="w-6 h-6"
-            src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
-            alt="Instagram"
-          />
-          <p>@kopidarihati.bpp2</p>
+          <a
+            href="https://www.instagram.com/kopidarihati.bpp2"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2"
+          >
+            <img
+              className="w-6 h-6"
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+              alt="Instagram"
+            />
+            <p>@kopidarihati.bpp2</p>
+          </a>
         </div>
         <div className="flex items-center space-x-2">
-          <img
-            className="w-6 h-6"
-            src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
-            alt="Instagram"
-          />
-          <p>@kizikafuka477</p>
+          <a
+            href="https://www.instagram.com/kizikafuka477"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2"
+          >
+            <img
+              className="w-6 h-6"
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+              alt="Instagram"
+            />
+            <p>@kizikafuka477</p>
+          </a>
         </div>
       </div>
     </div>

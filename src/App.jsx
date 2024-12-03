@@ -7,7 +7,6 @@ import ServicesPage from './pages/ServicesPage';
 import ArticlesPage from './pages/ArticlesPage';
 import DriverPage from './pages/DriverPage';
 import Track from './pages/Track';
-import RequestRate from './pages/RequestRate';
 import DeliverGoods from './pages/services/DeliverGoods';
 import Recovery from './pages/services/Recovery';
 import Hiring from './pages/articles/Hiring';
@@ -29,7 +28,6 @@ function App() {
 
           {/* Page Routes */}
           <Route path="/track" element={<Track />} />
-          <Route path="/requestrate" element={<RequestRate />} />
           <Route path="/services/delivergoods" element={<DeliverGoods />} />
           <Route path="/services/recovery" element={<Recovery />} />
 

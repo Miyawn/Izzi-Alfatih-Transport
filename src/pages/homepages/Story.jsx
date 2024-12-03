@@ -21,7 +21,7 @@ const Story = () => {
     },
     {
       title: "Why the Road is Our Home", // Judul dinamis untuk story pertama
-      quote: '"Kecepatan bukan hanya soal mesin, tapi juga nyali, strategi, dan konsistensi di setiap"',
+      quote: '"Kecepatan bukan hanya soal mesin, tapi juga nyali, strategi, dan konsistensi di setiap tikungan"',
       author: "Taufiq",
       position: "Driver",
       image: "../src/assets/quote_taufiq.png", // Ganti dengan path gambar
@@ -30,15 +30,15 @@ const Story = () => {
       title: "How Survival Becomes Second Nature", // Judul dinamis untuk story pertama
       quote: '"Kaki boleh beristirahat tapi impianmu tidak boleh berhenti berjalan"',
       author: "Sepa",
-      position: "Driver in disguise",
+      position: "Mekanik Handal",
       image: "../src/assets/quote_sepa.png", // Ganti dengan path gambar
     },
     {
-      title: "How Tuning Unleashes Identity", // Judul dinamis untuk story pertama
-      quote: '"Berhasil bertahan setelah masa pandemi adalah prestasi yang harus diingat dalam sejarah perusahaan ini"',
+      title: "Certified Race Car Engineer, tapi motornya lagi brebet", // Judul dinamis untuk story pertama
+      quote: '"Aku isi bensin, kita coba lagi"',
       author: "Tengku",
       position: "Engineer",
-      image: "../src/assets/izi.jpg", // Ganti dengan path gambar
+      image: "../src/assets/quote_tengku.jpg", // Ganti dengan path gambar
     },
     // Tambahkan cerita lainnya di sini
   ];

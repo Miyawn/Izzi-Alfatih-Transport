@@ -48,15 +48,18 @@ const Navbar = () => {
         className="px-4 py-4 md:px-12 flex justify-between items-center transition-all duration-300"
       >
         <div className="flex items-center space-x-2">
-          <img
-            src="../src/assets/Logo2.png"
-            alt="Izzi Alfatih Transport Logo"
-            className="h-10"
-          />
-          <span className="text-2xl font-bold text-black">
-            Izzi Alfatih Transport
-          </span>
+          <NavLink to="/" className="flex items-center space-x-2">
+            <img
+              src="../src/assets/Logo2.png"
+              alt="Izzi Alfatih Transport Logo"
+              className="h-10"
+            />
+            <span className="text-2xl font-bold text-black">
+              Izzi Alfatih Transport
+            </span>
+          </NavLink>
         </div>
+
         <nav className="hidden md:flex space-x-6 font-medium text-black">
           <NavLink to="/" className="hover:text-blue-500" activeClassName="text-blue-600">
             Home
