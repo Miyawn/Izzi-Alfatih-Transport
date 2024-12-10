@@ -41,7 +41,6 @@ function App() {
           {/* Page Uas */}
           <Route path='/uas/tengku' element={<UasTengku />} />
         </Routes>
-
       </div>
     </Router>
   );
