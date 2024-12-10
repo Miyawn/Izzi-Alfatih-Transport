@@ -13,6 +13,8 @@ import Hiring from './pages/articles/Hiring';
 import Remembrance from './pages/articles/Remembrance';
 import Safety from './pages/articles/Safety';
 
+import UasTengku from './pages/UAS Coding On The Spot/UasTengku';
+
 function App() {
   return (
     <Router>
@@ -35,6 +37,9 @@ function App() {
           <Route path="/article/hiring" element={<Hiring />} />
           <Route path="/article/remembrance" element={<Remembrance />} />
           <Route path="/article/safety" element={<Safety />} />
+
+          {/* Page Uas */}
+          <Route path='/uas/tengku' element={<UasTengku />} />
         </Routes>
 
       </div>

@@ -33,7 +33,7 @@ const DriverPage = () => {
       {/* Main Content Section */} 
       <div className="w-full py-16 px-6 bg-[#faf9f6]">
         <div className="text-center mb-10">
-          <h1 className="text-5xl font-bold text-[#012169]">Professionals and Specialists</h1>
+          <h1 className="text-5xl font-bold text-[#012169]">Professionals and Specialists</h1>  
         </div>
 
         {/* Centered Grid Section */}
